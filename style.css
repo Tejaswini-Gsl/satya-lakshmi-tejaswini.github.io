@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#container {
+    flex: 1;
+    display: flex;
+}
+
+#columnA {
+    flex: 40%;
+    background-color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+}
+
+#columnB {
+    flex: 60%;
+    background-color: #B4D7FF;
+    padding: 10px;
+    font-family: 'Tenor Sans';
+    color: black;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+#columnB h2 {
+    font-family: 'Tenor Sans';
+    color: black;
+    margin-left: 15%;
+    margin-top: 180px;
+}
+
+#columnB p {
+    font-family: 'Garet', sans-serif;
+    color: black;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#bbutton {
+    margin-top: 30px;
+}
+
+#C {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B4EDFF;
+}
+
+#C p {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    font-family: 'Tenor Sans';
+}
+
+#D {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    display: block;
+}
+
+#D p {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    font-family: 'Tenor Sans';
+    margin-bottom: 40px;
+}
+
+.partition {
+    flex: 1;
+}
+
+.black-button,
+.resume-button {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Garet', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.resume-button {
+    margin-right: 15%;
+}
+
+hr {
+    background-color: black;
+    height: 1px;
+    border: 0;
+    margin-left: 15%;
+    margin-right: 13%;
+}
+
+#linkedInLink {
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+}
+
+#linkedInLink a {
+    display: block;
+}
